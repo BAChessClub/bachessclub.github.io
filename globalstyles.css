@@ -58,12 +58,12 @@ footer {
   text-align: center;
   display: block;
   padding: 30px;
-  height: 120px;
+  height: 30px;
 }
 
 main {
   /* Set the minimum height of the main content to the viewport height minus the size of the nav + footer (240px). This makes the footer always on the bottom of the page, no matter the page height.*/
-  min-height: calc(100vh - 240px);
+  min-height: calc(100vh - 150px);
   display: block;
   margin: 0px;
   padding: 0px;
