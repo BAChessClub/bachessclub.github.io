@@ -8,19 +8,20 @@ body {
   margin: 0px;
 }
 main {
-
   text-align: center;
-  font-size: x-large;
 }
 
 h1 {
   text-align: center;
   font-weight: bold;
   font-size: 100px;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 nav {
-  background: rgb(224, 0, 0);
+  background: rgb(212, 1, 1);
   color: white;
   height: 60px;
   display: block;
@@ -49,4 +50,21 @@ nav .link:hover {
   font-size: 23px;
   height: 60px;
   line-height: 60px;
+}
+
+footer {
+  background-color: rgb(212, 1, 1);
+  text-align: center;
+  display: block;
+  padding: 30px;
+  height: 120px;
+}
+
+main {
+  /* Set the minimum height of the main content to the viewport height minus the size of the nav + footer (240px). This makes the footer always on the bottom of the page, no matter the page height.*/
+  min-height: calc(100vh - 240px);
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
