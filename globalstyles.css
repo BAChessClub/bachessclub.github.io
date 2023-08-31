@@ -3,6 +3,13 @@
 }
 
 body {
-  background: salmon;
+  background: rgb(33, 33, 33);
+  color: rgb(188, 188, 188);
   margin: 0px;
+}
+
+h1 {
+text-align: center;
+font-weight: bold;
+font-size: xx-large;
 }
