@@ -59,6 +59,9 @@ footer {
   display: block;
   padding: 30px;
   height: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 main {
