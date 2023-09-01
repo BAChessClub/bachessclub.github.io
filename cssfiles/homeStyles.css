@@ -1,7 +1,8 @@
-h1 {
+main {
     background-image: url("/images/chess.jpg");
-    background-position: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: rgb(188, 188, 188);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 2000px;
+    background-color: black;
 }
