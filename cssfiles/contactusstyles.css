@@ -1,4 +1,18 @@
+h1 {
+color: black;
+
+}
+
 main {
 font-size: xx-large;
+color: black;
+}
 
+body {
+    background-image: url(/images/contactuschess.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 140px;
+    color: black;
 }
