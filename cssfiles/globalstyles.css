@@ -48,11 +48,6 @@ nav .link:hover {
   background-color: rgb(188, 0, 0);
 }
 
-#logo {
-  font-size: 23px;
-  height: 60px;
-  line-height: 60px;
-}
 
 footer {
   background-color: rgb(212, 1, 1);
