@@ -15,11 +15,3 @@ p {
     height: auto;
     font-size: 27px;
 }
-
-p .pre {
-    color: azure;
-    text-align: center;
-    text-wrap: balance;
-    height: auto;
-    font-size: 27px;
-}
