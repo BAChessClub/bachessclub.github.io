@@ -6,6 +6,7 @@ body {
   background: rgb(33, 33, 33);
   color: rgb(188, 188, 188);
   margin: 0px;
+  height: 500px;
 }
 main {
   text-align: center;
@@ -15,7 +16,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 100px;
-  margin: 0px;
+  margin: 0 auto -80px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: rgb(188, 188, 188);
@@ -30,6 +31,8 @@ nav {
   padding-right: 5vw;
   padding-left: 2vw;
 }
+
+
 
 nav .link {
   height: 100%;
@@ -81,4 +84,9 @@ nav .alink {
   padding-top: 0px;
   padding-bottom: 0px;
   transition: background-color 0.2s;
+}
+
+spacer {
+
+  height: 60px;
 }
