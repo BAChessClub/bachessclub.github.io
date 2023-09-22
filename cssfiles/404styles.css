@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    height: max-content;
 }
 
 h1 {
@@ -24,4 +25,11 @@ main a {
     color:  black;
     margin-top: 100px;
     display: block;
+}
+
+p {
+text-wrap: balance;
+color: black;
+font-weight: bold;
+font-size: 30px;
 }
