@@ -3,6 +3,16 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
-    height: 2000px;
+    height: auto;
     background-color: black;
+}
+
+p {
+    color: azure;
+    text-align: center;
+    text-wrap: balance;
+    height: auto;
+    font-size: 27px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
